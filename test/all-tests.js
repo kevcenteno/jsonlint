@@ -228,5 +228,10 @@ exports["test pass-3"] = function () {
   assert.doesNotThrow(function () {parser.parse(json)}, "should pass");
 }
 
+exports["test backslash forwardslash"] = function () {
+    var json = '{"band": "AC\\/DC"}';
+    assert.deepEqual(parser.parse(json), {"band": "AC/DC"});
+};
+
 if (require.main === module)
     require("test").run(exports);
