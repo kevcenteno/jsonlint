@@ -1,7 +1,11 @@
 JSON Lint
 =========
 
-A pure [JavaScript version](http://zaach.github.com/jsonlint/) of the service provided at [jsonlint.com](http://jsonlint.com).
+>
+> # deprecation notice
+>
+> The original author's `jsonlint` is not actively maintained; this (and other) forks are not: we continue to update this library.
+>
 
 ## Command line interface
 Install jsonlint with npm to use the command line interface:
